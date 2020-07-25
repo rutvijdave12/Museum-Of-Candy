@@ -1,0 +1,67 @@
+body{
+	background:#f5d9d5;
+	font-family:"Nunito";
+	overflow-x:hidden;
+}
+
+#mainNavbar{
+	font-size:1.5rem;
+	font-weight:200;
+}
+
+.navbar-brand{
+	font-size: 1.5rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color:white;
+}
+#mainNavbar .nav-link:hover {
+	color:#ea1c2c;
+}
+
+#mainNavbar .navbar-brand{
+	color:#ea1c2c;
+}
+
+#headingGroup h1{
+	color:white;
+	font-size:4rem;
+	font-weight:200;
+}
+
+#headingGroup span{
+	color:#ea1c2c;
+}
+
+.blurb h2{
+	color:#ea1c2c;
+	font-size:2.5rem;
+	font-weight:200;
+
+}
+
+.blurb p{
+	color:#f498b8;
+	font-weight:200;
+	font-size:1.125rem;
+	line-height:2;
+}
+
+.content{
+	margin-top:100px;
+}
+
+.navbar.scrolled{
+	background: rgb(222,192,222);
+	transition: 500ms;
+}
+
+@media (max-width: 1300px){
+	#headingGroup h1{
+		font-size:3rem;
+		font-weight:100;
+	}	
+}
+/*This is a media query inside which you use a selector to change their property at a certain time or moment*/
+
